@@ -1,18 +1,27 @@
 .profile {
+  padding: 0;
 }
 .profile__box {
+  padding: 0;
 }
 .profile__img {
+  padding: 0;
 }
 .profile__name {
+  padding: 0;
 }
 .profile__tag {
+  padding: 0;
 }
 .profile__location {
+  padding: 0;
 }
 .profile__stats {
+  padding: 0;
 }
 .profile__stats-label {
+  padding: 0;
 }
 .profile__stats-quantity {
+  padding: 0;
 }
