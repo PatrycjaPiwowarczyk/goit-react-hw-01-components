@@ -7,19 +7,19 @@ export const Profile = ({ avatar, username, tag, location, stats }) => {
       <div className={css.profile__box}>
         <img className={css.profile__img} src={avatar} alt="User avatar" />
         <p className={css.profile__name}>{username}</p>
-        <p className={css.profile__tag}>{tag}</p>
+        <p className={css.profile__tag}>@{tag}</p>
         <p className={css.profile__location}>{location}</p>
       </div>
       <ul className={css.profile__stats}>
-        <li>
+        <li className={css.profile__statsBox}>
           <span className={css.profile__statsLabel}>Followers</span>
           <span className={css.profile__statsQuantity}>{stats.followers}</span>
         </li>
-        <li>
+        <li className={css.profile__statsBox}>
           <span className={css.profile__statsLabel}>Views</span>
           <span className={css.profile__statsQuantity}>{stats.views}</span>
         </li>
-        <li>
+        <li className={css.profile__statsBox}>
           <span className={css.profile__statsLabel}>Likes</span>
           <span className={css.profile__statsQuantity}>{stats.likes}</span>
         </li>

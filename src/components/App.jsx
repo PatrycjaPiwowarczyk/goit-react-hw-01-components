@@ -18,8 +18,9 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
-        padding: 100,
-        gap: 50,
+        padding: 0,
+        margin: 0,
+        backgroundColor: 'rgba(204, 216, 225, 0.848)',
       }}
     >
       <Profile
