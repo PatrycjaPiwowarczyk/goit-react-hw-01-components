@@ -1,0 +1,71 @@
+.statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+
+  box-shadow: rgba(72, 69, 69, 0.19) 0px 10px 20px,
+    rgba(74, 70, 70, 0.23) 0px 6px 6px;
+  width: 1000px;
+  padding: 0;
+}
+.statistics__title {
+  display: flex;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: rgb(26, 18, 80);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.statistics__area {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.statistics__box0,
+.statistics__box1,
+.statistics__box2,
+.statistics__box3,
+.statistics__box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  width: 20%;
+  height: 180px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.statistics__box0 {
+  background-color: rgb(0, 115, 255);
+}
+
+.statistics__box1 {
+  background-color: rgb(149, 0, 255);
+}
+.statistics__box2 {
+  background-color: rgb(221, 0, 41);
+}
+.statistics__box3 {
+  background-color: rgb(255, 145, 0);
+}
+.statistics__box4 {
+  background-color: rgb(0, 159, 53);
+}
+.statistics__label {
+  font-size: 35px;
+}
+.statistics__percentage {
+  font-size: 60px;
+}
