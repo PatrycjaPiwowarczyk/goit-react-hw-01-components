@@ -5,19 +5,17 @@
   flex-direction: column;
   color: rgb(137, 135, 135);
   width: auto;
-  gap: 0;
   height: 100%;
-
   box-shadow: rgba(72, 69, 69, 0.19) 0px 10px 20px, rgba(74, 70, 70, 0.23) 0px 6px 6px;
 }
 .profile__box {
   background-color: white;
-  padding-top: 90px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 850px;
+  width: 400px;
   height: 100%;
 }
 .profile__img {
@@ -26,36 +24,31 @@
   border-radius: 50%;
 }
 .profile__name {
-  padding-top: 90px;
+  padding-top: 40px;
   align-items: center;
   font-weight: 700;
-  font-size: 60px;
-  margin: 0;
+  font-size: 30px;
   color: rgb(26, 18, 80);
 }
 
 .profile__tag {
-  padding-top: 30px;
-  font-size: 40px;
-  margin: 0;
+  padding-top: 10px;
+  font-size: 22px;
 }
 .profile__location {
-  padding-top: 30px;
-  padding-bottom: 90px;
-  font-size: 40px;
-  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 22px;
 }
 .profile__stats {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 850px;
+  width: 400px;
   list-style-type: none;
   background-color: rgb(234, 239, 242);
-  height: 250px;
-  padding: 0;
-  margin: 0;
+  height: 120px;
 }
 .profile__statsBox {
   display: flex;
@@ -68,12 +61,12 @@
 }
 
 .profile__statsLabel {
-  font-size: 36px;
-  padding-bottom: 15px;
+  font-size: 18px;
+  padding-bottom: 10px;
 }
 .profile__statsQuantity {
   font-weight: 700;
   font-style: bold;
-  font-size: 45px;
+  font-size: 26px;
   color: rgb(26, 18, 80);
 }
