@@ -1,1 +1,1 @@
-# https://patrycjapiwowarczyk.github.io/goit-react-hw-01-components/
+# https://patrycjapiwowarczyk.github.io/social-profile/
